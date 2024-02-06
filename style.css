@@ -17,10 +17,14 @@ body
 {
     /*fuente conseguida de https://fonts.google.com/*/
     font-family: 'Montserrat', sans-serif;
+} 
+.Main-Contacto
+{
+    margin: 0 auto 0 10%;
 }
 .Caja
 {
-    width: 940px;
+    width: 80%;
     position: relative;
     margin: 0 auto;
 }
@@ -54,18 +58,16 @@ nav a:hover
 /*#region Productos*/
 .Productos
 {
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px;
+    padding: 10%;
 }
 .Productos li
 {
     display: inline-block;
     text-align: center;
-    width: 30%;
+    width: 29.8%;
     vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
+    margin: 1.5% 1.5%;
+    padding: 3% 2%;
     box-sizing: border-box;
     border: 2px black solid;
     /*#region border*/
@@ -77,6 +79,10 @@ nav a:hover
     border-style: solid;
     */
     /*#endregion border*/
+}
+.Productos img
+{
+    width: 100%;
 }
 .Productos li:hover
 {
@@ -188,7 +194,7 @@ td,th
 }
 .principal
 {
-    width: 940px;
+    width: 80%;
     margin: 0 auto;
     padding: 3EM 0;
     background-color: #fefefe;
@@ -248,7 +254,7 @@ p::first-line
 }
 .Mapa-contenido
 {
-    width: 940px;
+    width: 80%;
     margin: 0 auto;
 }
 .diferenciales
@@ -302,12 +308,19 @@ p::first-line
     h1{
         text-align: center;
     }
-    nav{
+    header nav{
         position: static;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2%;
     }
    .Caja,.principal,.Mapa-contenido,.Contenido-Diferenciales,.video
    {
     width: auto;
+   }
+   .Productos li
+   {
+    width: 100%;
    }
    .Lista-diferenciales,.Imagen-Diferenciales
    {

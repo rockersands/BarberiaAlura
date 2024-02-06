@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>Contacto - barberia Alura</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -21,18 +23,18 @@
             </nav>
         </div>
     </header>
-    <main>
+    <main class="Main-Contacto">
         <form>
-            <label for="nombreapellido">nombre y apellido</label>
+            <label for="nombreapellido">Nombre y apellido</label>
             <input type="text" id="nombreapellido" class="Input-padron" required>
 
-            <label for="correo">correo electronico</label>
+            <label for="correo">Correo electronico</label>
             <input type="email" id="correo" class="Input-padron" required placeholder="email@dominio.com">
 
-            <label for="telefono">telefono</label>
+            <label for="telefono">Telefono</label>
             <input type="tel" id="telefono" class="Input-padron" required placeholder="(XX) XXXX XXXX">
 
-            <label for="mensaje">mensaje</label>
+            <label for="mensaje">Mensaje</label>
             <textarea id="mensaje" cols="70" rows="10" class="Input-padron" required></textarea>
 
             <fieldset> <!--etiqueta para decir que todos los datos internos son un conjunto-->
