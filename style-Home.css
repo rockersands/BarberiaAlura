@@ -1,0 +1,54 @@
+
+.principal
+{
+    background: #CCCCCC;  
+    padding: 20px;
+}
+p{
+    text-align: center;  
+}
+em strong /*cuando se intersequen estas etiquetas*/
+{
+    color: red;
+}
+#banner
+{
+   width: 100%;
+}
+.TituloPrincipal
+{
+    padding-left: 30px;
+}
+.TituloCentralizado
+{
+    text-align: center;
+    /*
+    height: 150px;
+    border: 10px solid #000000;
+    padding: 20px;
+    margin: 40px;*/
+}
+#mision /*llamado por id*/
+{
+    font-size: 20px;
+}
+.items /*referencias de clases*/
+{
+    font-style: italic;
+}
+ul
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.diferenciales
+{
+    background-color: white;
+    padding: 30px;
+}
+.imagenDiferenciales
+{
+    width: 50%;
+}
